@@ -14,8 +14,7 @@ jobs:
         server: ${{secrets.HOSTNAME}}
         username: ${{secrets.USERNAME}}
         password: ${{ secrets.PASSWORD }}
-        local-dir: .
-        remote-dir: ./htdocs/src
+        server-dir: ./htdocs/src
         exclude: |
           .gitignore
           .git/**
