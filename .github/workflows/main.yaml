@@ -14,7 +14,7 @@ jobs:
         server: ${{secrets.HOSTNAME}}
         username: ${{secrets.USERNAME}}
         password: ${{ secrets.PASSWORD }}
-        server-dir: ./htdocs/src/
+        server-dir: ./htdocs/
         exclude: |
           .gitignore
           .git/**
