@@ -17,7 +17,7 @@ class HomeController
                 $_POST['time'] ?? ""
             );
             $student->validate();
-            $errors = $student->getErrors();
+           $student->getErrors();
             $is_terms_checked = isset($_POST['terms']);
             if (!$is_terms_checked) {
                 $errors['terms'] = "Please agree to the terms and conditions";

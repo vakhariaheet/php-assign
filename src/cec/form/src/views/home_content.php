@@ -94,6 +94,6 @@
                 printError($errors['terms']);
         } ?>
        
-        <button name="submit"> Next </button>
+        <button name="submit"> Submit </button>
     </form>
 </main>
