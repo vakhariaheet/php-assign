@@ -5,11 +5,13 @@
             <input type="text" placeholder="Enter Roll No." name="roll_no" value="<?php echo $roll_no ?? ''; ?>"
              />
         </label>
-        <?php
-        if (isset($errors['roll_no'])) {
-            echo '<div class=\'error\'>'.$errors['roll_no'].'</div>';
-        }
+        
+            <?php
+                if (isset($errors['roll_no'])) {
+                    echo '<div class=\'error\'>'.$errors['roll_no'].'</div>';
+                }
             ?>
+        
         <label>
             <span> Name </span>
             <input type="text" placeholder="Enter Name" name="name" value="<?php echo $name ?? ''; ?>" />
